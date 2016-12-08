@@ -5,8 +5,8 @@ var fixture;
 
 function loadFixture(path) {
     var html;
-    jQuery.ajax({
-        url: '/index.html',
+    $.ajax({
+        url: 'index.html',
         success: function(result) {
             html = result;
         },
